@@ -2,6 +2,8 @@
 
 **Predict, explain and prevent supply chain disruptions.**
 
+**[Try the live dashboard](https://supplylens.streamlit.app)** — runs in your browser on simulated sample data, nothing to install.
+
 SupplyLens is an open-source Python toolkit and dashboard for supply chain analysts. It takes a
 table of purchase orders and answers three questions in sequence:
 
