@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supplylens"
+version = "0.1.0"
+description = "Predict, explain and prevent supply chain disruptions."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Md Abdur Rauf" }]
+keywords = ["supply chain", "analytics", "forecasting", "vendor scorecard", "market analysis"]
+dependencies = ["pandas>=2.0", "numpy>=1.24", "scipy>=1.10", "scikit-learn>=1.3"]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.50", "plotly>=5.20"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+supplylens = "supplylens.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

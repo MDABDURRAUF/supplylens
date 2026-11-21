@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "SupplyLens: predict, explain and prevent supply chain disruptions"
+type: software
+version: 0.1.0
+date-released: 2026-11-21
+license: MIT
+authors:
+  - family-names: Rauf
+    given-names: Md Abdur
+    orcid: "https://orcid.org/0000-0002-5105-9892"
+keywords:
+  - supply chain
+  - disruption prediction
+  - explainable AI
+  - prescriptive analytics
