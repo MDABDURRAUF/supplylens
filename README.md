@@ -50,6 +50,14 @@ Launch the dashboard (it opens with built-in sample data, or upload your own CSV
 streamlit run app.py
 ```
 
+## Run with Docker
+No local Python setup needed:
+```bash
+docker build -t supplylens .
+docker run --rm -p 8501:8501 supplylens
+```
+Then open http://localhost:8501 in your browser. The dashboard opens with built-in sample data.
+
 The dashboard has ten views, all driven by the date, category and region filters in the sidebar:
 
 | View | What you can do |
